@@ -38,18 +38,23 @@ s.connect(('localhost',8000))
 while True: 
     print(s.recv(1024).decode())
     s.send("acknowledgement recived from the server".encode())
+```
 
 
 ## OUPUT
 
 CLIENT:
 
-
-![Screenshot 2024-04-05 112839](https://github.com/Nandy-nan/2b_SLIDING_WINDOW_PROTOCOL/assets/153698914/ccfa7104-ac38-4a13-9552-895885e07795)
+![Screenshot 2024-04-05 112839](https://github.com/Nandy-nan/2b_SLIDING_WINDOW_PROTOCOL/assets/153698914/62cc6dc9-1cf3-4d7e-af69-28ed83559932)
 
 SERVER:
 
-![Screenshot 2024-04-05 112849](https://github.com/Nandy-nan/2b_SLIDING_WINDOW_PROTOCOL/assets/153698914/1dea057c-c0e0-4639-9ab4-5e2e79b25277)
+![Screenshot 2024-04-05 112849](https://github.com/Nandy-nan/2b_SLIDING_WINDOW_PROTOCOL/assets/153698914/eb332e5e-23f4-49d5-9953-e81a53b7d8ad)
+
+
+
+
+SERVER:
 
 
 ## RESULT
